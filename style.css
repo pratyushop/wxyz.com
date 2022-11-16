@@ -2,25 +2,16 @@
     margin: 0%;
     padding: 0%;
 }
-body{
-    background: url(media/night.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
 
-}
-.text-center::selection{
-   
-        color: red;
-        background: yellow;
-   
-}
-h1{
+.heading{
     margin-top: 15%;
     font-size:5.5vw;
+    color: rgb(33,37,41);
 
 }
-p{
+.para{
     font-size: 3vw;
+    color: rgb(174, 181, 187);
 }
 .logo-youtube{
     height: 32px;
@@ -33,4 +24,40 @@ p{
 }
 .op{
     height: 75%;
+}
+.body{
+    background: url(media/night.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    display: inline-block;
+}
+.me{
+    background-color: #222831;
+    display: inline-block;
+    width: 100%;
+
+}
+.svgs{
+    margin-bottom: 100px;
+}
+.h{
+    color: rgb(18, 19, 20);
+    text-align: center;
+    font-size:3vw
+}
+.iop{
+    text-align: center;
+    font-size:3vw
+    
+}
+.abt{
+    text-align: center;
+    display: inline-block;
+    color: rgb(174, 181, 187);
+    padding-left: 22%;
+    margin-top: -11%;
+    position: relative;
+    bottom: 50px;
+font-size: 17px;
 }
