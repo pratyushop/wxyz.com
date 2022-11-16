@@ -53,11 +53,10 @@
 }
 .abt{
     text-align: center;
-    display: inline-block;
     color: rgb(174, 181, 187);
     padding-left: 22%;
-    margin-top: -11%;
-    position: relative;
-    bottom: 50px;
-font-size: 17px;
+    margin-top: -18%;
+    font-size: 2vw;
+    font-weight: 500;
+    margin-bottom: 17%;
 }
